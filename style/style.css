@@ -1,0 +1,165 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+#site-container {
+    width: 960px;
+    height: auto;
+    margin: 20px auto;
+    background: #ffffcc;
+    /*menambahkan background*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#header {
+    width: 950px;
+    height: 280px;
+    margin: 0px auto;
+    border: 1px solid #000;
+}
+
+#menu-content {
+    width: 950px;
+    height: auto;
+    margin: 5px auto;
+}
+
+#menu {
+    float: left;
+    width: 300px;
+    height: auto;
+}
+
+#content {
+    float: right;
+    width: 625px;
+    height: 600px;
+    border: 1px solid #000;
+}
+
+#footer {
+    width: 950px;
+    height: 70px;
+    margin: 5px auto;
+    border: 1px solid #000;
+}
+
+.floating {
+    clear: both;
+    height: 0px;
+    line-height: 0px;
+}
+
+#header {
+    width: 950px;
+    height: 280px;
+    background: url(../images/coderuniska.jpg);
+    margin: 5px auto;
+}
+
+#header a {
+    font: 28pt 'Matura MT Script Capitals';
+    text-decoration: none;
+    color: #666633;
+}
+
+#header p {
+    font: 20pt 'Brush Script Std';
+    color: #669900;
+}
+
+#header {
+    width: 900px;
+    /* mengurangi besar width oleh padding-left */
+    height: 130px;
+    /* mengurangi besar height oleh padding-top*/
+    background: url(../images/coderuniska.jpg);
+    margin: 5px auto;
+    padding-top: 150px;
+    /*menambahkan padding top & left u/mengatur*/
+    padding-left: 50px;
+    /*posisi text-judul*/
+}
+
+.judul_1 {
+    display: block;
+    height: 40px;
+    background: #669900;
+    font: 20pt "Script MT Bold";
+    color: #fff;
+    text-align: center;
+    border: 1px solid red;
+}
+
+#menu ul {
+    list-style: none;
+}
+
+#menu li a {
+    display: block;
+    height: 30px;
+    background: #99cc66;
+    font: 16pt "Script MT Bold";
+    color: #000;
+    text-decoration: none;
+    border-bottom: 1px solid red;
+    border-left: 1px solid red;
+    border-right: 1px solid red;
+    padding-left: 20px;
+}
+
+#menu li a:hover {
+    background: #666633;
+    color: #fff;
+}
+
+#content {
+    width: 610px;
+    height: auto;
+    /*border:1px solid #000;*/
+    float: right;
+    background: #99cc66;
+    padding: 15px;
+}
+
+.judul_2 {
+    display: block;
+    border-bottom: 2px solid #000;
+    font: 26pt "Script MT Bold";
+    color: #fff;
+    padding-bottom: 10px;
+}
+
+.img {
+    width: 250px;
+    height: 200px;
+    border: 5px solid #fff;
+    margin-top: 20px;
+    margin-right: 20px;
+    float: left;
+}
+
+#content p {
+    margin-top: 20px;
+}
+
+#footer {
+    width: 950px;
+    height: 40px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    margin-right: auto;
+    margin-left: auto;
+    background: #669900;
+    text-align: center;
+    padding-top: 30px;
+    font-weight: bold;
+    color: #fff;
+}
+
+body {
+    background: #00ff99;
+    font: 10pt verdana;
+}
